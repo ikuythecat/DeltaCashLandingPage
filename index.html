@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeltaCash Landing Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #142157;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 22px;
+    color: #38bdf8;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 8%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: #38bdf8;
+}
+
+.hero p {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.section {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: #283593;
+    padding: 30px;
+    border-radius: 15px;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.rounded {
+    width: 200px;
+    border-radius: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">DeltaCash</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#">GitHub</a>
+    </nav>
+</header>
+
+<section class="hero">
+  <img src="deltacash.jpg" class="rounded" alt="Logo DeltaCash" width="200">
+    <h1>DeltaCash<br><span>Technologies</span></h1>
+    <p>A next-generation experimental digital currency built for learning and innovation.</p>
+</section>
+
+<section class="section" id="about">
+    <h2>About DeltaCash</h2>
+    <p>DeltaCash (DCH) is a blockchain simulation project created for educational purposes.  
+    Learn how crypto systems work from wallet creation to block validation.</p>
+</section>
+
+<section class="section" id="features">
+    <h2>Core Features</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>DCH Address</h3>
+            <p>Public keys start with 'dch' for unique identity.</p>
+        </div>
+        <div class="card">
+            <h3>Secure Hash</h3>
+            <p>Uses SHA256 hashing to link blocks securely.</p>
+        </div>
+        <div class="card">
+            <h3>Mini Blockchain</h3>
+            <p>Local testnet blockchain system for safe experimentation.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+     2026 DeltaCash Technologies. Built by IkuyTheCat
+</footer>
+
+</body>
+</html>
